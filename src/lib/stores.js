@@ -1,7 +1,7 @@
-import { writable } from "svelte/store";
+import {writable} from "svelte/store";
 
-export const totalPages = writable(0);
-export const curPage = writable(0);
+export const slides = writable([]);
 
-export const curPageSlide = writable(0);
-export const pageSlides = writable(0);
+export const curStep = writable(0);
+
+export const back = writable(false);

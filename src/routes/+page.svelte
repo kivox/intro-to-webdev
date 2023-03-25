@@ -1,8 +1,10 @@
 <script>
-  import { curPageSlide, pageSlides } from "$lib/stores.js";
+  import {onMount} from "svelte";
+  import {curStep} from "$lib/stores.js";
 
-  curPageSlide.set(0);
-  pageSlides.set(0);
+  onMount(() => {
+    curStep.set(0);
+  });
 </script>
 
 <div class="w-full h-full flex justify-center items-center">
