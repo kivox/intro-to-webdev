@@ -22,10 +22,10 @@
   function pageHandler(event) {
     let currentPageLink = $page.url.pathname;
     let currentPageIndex = $slides.findIndex((page) => page.link === currentPageLink);
-    let currentSteps = $slides[currentPageIndex].steps;
+    let currentPageSteps = $slides[currentPageIndex].steps;
 
     if (event.key === "ArrowRight") {
-      if (currentSteps > $curStep + 1) {
+      if (currentPageSteps > $curStep + 1) {
         curStep.set($curStep + 1);
       } else {
         let nextPageIndex = currentPageIndex + 1;
