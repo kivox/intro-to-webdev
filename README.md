@@ -1,1 +1,1 @@
-# intro-to-webdev
+# Introduction to Webdev, utilising Sveltekit, Tailwind and Three.JS
