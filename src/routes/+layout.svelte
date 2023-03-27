@@ -1,5 +1,5 @@
 <script>
-import "svelte-highlight/styles/atom-one-dark-reasonable.css"
+  import theme from "svelte-highlight/styles/atom-one-dark-reasonable"
   import "@/styles/tailwind.css";
 
   import {curStep, slides} from "$lib/stores.js";
@@ -58,6 +58,10 @@ import "svelte-highlight/styles/atom-one-dark-reasonable.css"
 </script>
 
 <svelte:window on:keydown={arrowHandler}/>
+
+<svelte:head>
+  {@html theme}
+</svelte:head>
 
 <div class="w-screen h-screen bg-gray-900 text-white overflow-hidden">
   <div class="fixed top-4 left-4 bg-gray-900 text-white font-bold text-2xl">
