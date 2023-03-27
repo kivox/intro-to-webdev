@@ -59,7 +59,7 @@ h1, p {
     })
 </script>
 
-<div class="w-full h-full flex justify-center items-start py-16 max-w-screen-2xl m-auto">
+<div class="w-full h-full flex justify-center items-start max-w-screen-2xl m-auto">
     <div class="flex flex-row gap-2 w-full h-full p-24">
         <div class="w-2/4 h-full flex flex-col w-full gap-2">
             <div class="mr-auto h-1/2 bg-gray-800 w-full px-2 pb-2 rounded-t rounded-b"
