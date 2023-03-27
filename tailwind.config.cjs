@@ -5,7 +5,7 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
+      /*colors: {
         vermilion: {
           50: "#fff1f1",
           100: "#ffd7d9",
@@ -102,8 +102,13 @@ module.exports = {
           800: "#21272a",
           900: "#121619",
         },
-      },
-      plugins: [],
+      },*/
+      plugins: [
+        require('@tailwindcss/forms')({
+          strategy: 'class'
+        }),
+        require('@tailwindcss/typography')
+      ]
     },
   },
 };
