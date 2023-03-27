@@ -4,7 +4,7 @@
     import {fly} from 'svelte/transition'
 
     import Highlight, {LineNumbers} from "svelte-highlight";
-    import html from "svelte-highlight/languages/vbscript-html";
+    import html from "svelte-highlight/languages-typescript";
     import css from "svelte-highlight/languages/css";
 
     let htmlFile = `<!DOCTYPE html>
@@ -41,14 +41,18 @@ h1, p {
                 cssHighlighted = [1]
                 break;
             case 2:
-                htmlHighlighted = [7, 8]
-                cssHighlighted = [4]
+                htmlHighlighted = [6,9]
+                cssHighlighted = [1]
                 break;
             case 3:
                 htmlHighlighted = [7, 8]
-                cssHighlighted = [5]
+                cssHighlighted = [4]
                 break;
             case 4:
+                htmlHighlighted = [7, 8]
+                cssHighlighted = [5]
+                break;
+            case 5:
                 htmlHighlighted = [8]
                 cssHighlighted = [9]
                 break;
@@ -107,7 +111,7 @@ h1, p {
                 </div>
             </div>
         </div>
-        <div class="w-2/4 mr-auto h-full {$curStep >= 1 ? 'bg-red-600' : 'bg-white'} rounded"
+        <div class="w-2/4 mr-auto h-full {$curStep >= 2 ? 'bg-red-600' : 'bg-white'} rounded"
              in:fly={{ x: 400, duration: 400 }}>
             <div class="flex flex-row px-2 justify-center items-center bg-gray-800 h-10 rounded-t">
                 <div class="text-xs py-1 px-2 bg-gray-900 rounded">

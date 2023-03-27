@@ -45,9 +45,10 @@ greet();`;
             {#if $curStep >= 4}
                 <ul class="pl-16 list-disc text-2xl text-semibold text-gray-300">
                     <li>Form validation</li>
-                    <li>Fetching data from APIs</li>
-                    <li>Creating sliders, carousels, and other interactive components</li>
-                    <li>Handling user input</li>
+                    <li>Calculations</li>
+                    <li>Dynamic Content</li>
+                    <li>Sliders, Carousels, and other interactive components</li>
+                    <li>User input</li>
                     <li>Animating elements</li>
                     <li>And much more</li>
                 </ul>
@@ -87,7 +88,6 @@ greet();`;
                         </div>
                     </div>
                     <div class="bg-gray-900 pb-2">
-
                         <Highlight language={javascript} code={output}/>
                     </div>
                 </div>

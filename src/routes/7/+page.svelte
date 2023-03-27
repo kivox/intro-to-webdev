@@ -4,7 +4,7 @@
     import {fly} from 'svelte/transition'
 
     import Highlight, {LineNumbers} from "svelte-highlight";
-    import html from "svelte-highlight/languages/vbscript-html";
+    import html from "svelte-highlight/languages-typescript";
     import css from "svelte-highlight/languages/css";
     import javascript from "svelte-highlight/languages/javascript";
 

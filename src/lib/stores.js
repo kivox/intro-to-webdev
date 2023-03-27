@@ -29,7 +29,7 @@ export const slides = writable([
   {
     title: "What is CSS?",
     link: "/5",
-    steps: 5,
+    steps: 6,
   },
   {
     title: "",
