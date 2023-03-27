@@ -1,4 +1,5 @@
 <script>
+import "svelte-highlight/styles/atom-one-dark-reasonable.css"
   import "@/styles/tailwind.css";
 
   import {curStep, slides} from "$lib/stores.js";

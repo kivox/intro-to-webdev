@@ -37,15 +37,15 @@ h1, p {
     curStep.subscribe((value) => {
         switch (value) {
             case 1:
-                htmlHighlighted = [5, 8]
+                htmlHighlighted = [6,9]
                 cssHighlighted = [1]
                 break;
             case 2:
-                htmlHighlighted = [6, 7]
+                htmlHighlighted = [7, 8]
                 cssHighlighted = [4]
                 break;
             case 3:
-                htmlHighlighted = [6, 7]
+                htmlHighlighted = [7, 8]
                 cssHighlighted = [5]
                 break;
             case 4:

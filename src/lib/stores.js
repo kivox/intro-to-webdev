@@ -44,7 +44,7 @@ export const slides = writable([
     {
         title: "",
         link: "/10",
-        steps: 10,
+        steps: 0,
     },
 ]);
 

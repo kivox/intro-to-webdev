@@ -131,6 +131,7 @@ newParagraph.addEventListener('input', function() {
                         <Highlight code={jsFile} language={javascript} let:highlighted>
                             <LineNumbers hideBorder={true} {highlighted} highlightedLines={jsHighlighted}/>
                         </Highlight>
+                        <div class="flex-grow bg-gray-900 mb-10"></div>
                     </div>
                 </div>
             </div>
