@@ -4,7 +4,7 @@
     import {fly} from 'svelte/transition'
 
     import Highlight, {LineNumbers} from "svelte-highlight";
-    import html from "svelte-highlight/languages/vbscript-html";
+    import html from "svelte-highlight/languages/javascript";
     import css from "svelte-highlight/languages/css";
     import javascript from "svelte-highlight/languages/javascript";
 
@@ -129,7 +129,7 @@
                     </div>
                 </div>
             </div>
-            <div class="w-full mr-auto h-full bg-white rounded"
+            <div class="w-full mr-auto h-full {$curStep >= 3 ? 'bg-blue-600' : 'bg-white'} rounded"
                  in:fly={{ x: 400, duration: 400 }}>
                 <div class="flex flex-row px-2 justify-center items-center bg-gray-800 h-10 rounded-t">
                     <div class="text-xs py-1 px-2 bg-gray-900 rounded">
