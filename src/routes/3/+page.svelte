@@ -2,7 +2,7 @@
     import {fly} from 'svelte/transition'
     import Highlight, {LineNumbers} from "svelte-highlight";
     import {curStep} from "$lib/stores.js";
-    import html from "svelte-highlight/languages/javascript";
+    import html from "svelte-highlight/languages/vbscript-html";
 
     let code = `<!DOCTYPE html>
 <html>
