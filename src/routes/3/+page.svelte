@@ -1,8 +1,8 @@
 <script>
     import {fly} from 'svelte/transition'
     import Highlight, {LineNumbers} from "svelte-highlight";
-    import html from "svelte-highlight/languages/typescript";
     import {curStep} from "$lib/stores.js";
+    import html from "svelte-highlight/languages/vbscript-html";
 
     let code = `<!DOCTYPE html>
 <html>
