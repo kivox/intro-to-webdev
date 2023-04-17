@@ -15,7 +15,7 @@
         <script src="script.js"><\/script>
     </head>
     <body>
-      <button id="button">Change background colour to blue</button>
+      <button onclick="changeBackgroundToBlue()">Change background colour to blue</button>
     </body>
 </html>`;
     let cssFile = `body {
@@ -23,7 +23,7 @@
 }`;let cssFileNew = `body {
     background-color: blue;
 }`;
-    let jsFile = `document.getElementById("button").addEventListener("click", function() {
+    let jsFile = `function changeBackgroundToBlue() {
   document.body.style.backgroundColor = "blue";
 });`
 
